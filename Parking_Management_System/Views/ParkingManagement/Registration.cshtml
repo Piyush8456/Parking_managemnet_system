@@ -1,0 +1,24 @@
+﻿ @model Parking_Management_System.Models.VehicleRegistration;
+
+<form class="form" method="post">
+    <div>
+        <lable for="Id">Enter Crad Id</lable>
+        <input asp-for="Id" type="number" id="CId" />
+    </div>
+   <div>
+        <lable for="SpotNumber">Enter Spot Number</lable>
+        <input asp-for="SpotNumber" type="number" id="snum" />
+   </div>
+   <div>
+      <label>
+            <lable for="vname">Enter Vehicle Name</lable>
+            <input asp-for="VehicleName" type="text" id="vname" />
+      </label>
+   </div>
+   <div>
+        <lable for="vnum">Enter Vehicle Number</lable>
+        <input asp-for="VehicleNumber" type=" text" id="vnum" />
+   </div>
+   <input type="submit" value="Register"/> 
+   </form>
+
