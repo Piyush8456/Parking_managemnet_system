@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\mvc\\Parking_Management_System\\Parking_Management_System\\Parking_Management_System.csproj": {}
+    "C:\\mvc\\Parking_managemnet_system\\Parking_Management_System\\Parking_Management_System.csproj": {}
   },
   "projects": {
-    "D:\\mvc\\Parking_Management_System\\Parking_Management_System\\Parking_Management_System.csproj": {
+    "C:\\mvc\\Parking_managemnet_system\\Parking_Management_System\\Parking_Management_System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\mvc\\Parking_Management_System\\Parking_Management_System\\Parking_Management_System.csproj",
+        "projectUniqueName": "C:\\mvc\\Parking_managemnet_system\\Parking_Management_System\\Parking_Management_System.csproj",
         "projectName": "Parking_Management_System",
-        "projectPath": "D:\\mvc\\Parking_Management_System\\Parking_Management_System\\Parking_Management_System.csproj",
-        "packagesPath": "C:\\Users\\Piyush\\.nuget\\packages\\",
-        "outputPath": "D:\\mvc\\Parking_Management_System\\Parking_Management_System\\obj\\",
+        "projectPath": "C:\\mvc\\Parking_managemnet_system\\Parking_Management_System\\Parking_Management_System.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\mvc\\Parking_managemnet_system\\Parking_Management_System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Piyush\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -64,6 +65,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -85,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

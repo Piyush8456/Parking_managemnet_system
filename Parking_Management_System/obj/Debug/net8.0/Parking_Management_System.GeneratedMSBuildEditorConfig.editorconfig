@@ -1,59 +1,111 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Parking_Management_System
 build_property.RootNamespace = Parking_Management_System
-build_property.ProjectDir = D:\mvc\Parking_Management_System\Parking_Management_System\
+build_property.ProjectDir = C:\mvc\Parking_managemnet_system\Parking_Management_System\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\mvc\Parking_Management_System\Parking_Management_System
+build_property.MSBuildProjectDirectory = C:\mvc\Parking_managemnet_system\Parking_Management_System
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/HomePage/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVBhZ2VcSW5kZXguY3NodG1s
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingLots/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingLots/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingLots/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/ParkingManagement/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ01hbmFnZW1lbnRcSW5kZXguY3NodG1s
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingLots/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/ParkingManagement/Registration.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ01hbmFnZW1lbnRcUmVnaXN0cmF0aW9uLmNzaHRtbA==
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingLots/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ0xvdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/Shared/Error.cshtml]
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingSpaces/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1NwYWNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingSpaces/Index1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1NwYWNlc1xJbmRleDEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingSpaces/Index2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1NwYWNlc1xJbmRleDIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingSpaces/Index3.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1NwYWNlc1xJbmRleDMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingTransactions/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1RyYW5zYWN0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingTransactions/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1RyYW5zYWN0aW9uc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/ParkingTransactions/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFya2luZ1RyYW5zYWN0aW9uc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/_ViewImports.cshtml]
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Vehicles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Vehicles/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Vehicles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Vehicles/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZXNcVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/_ViewStart.cshtml]
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/mvc/Parking_Management_System/Parking_Management_System/Views/Shared/_Layout.cshtml]
+[C:/mvc/Parking_managemnet_system/Parking_Management_System/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-raoyamoj2c

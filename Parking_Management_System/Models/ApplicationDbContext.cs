@@ -7,23 +7,31 @@ namespace Parking_Management_System.Models
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public virtual DbSet<VehicleRegistration> VehicleRegistration { get; set; }
+        public DbSet<ParkingLots> parkingLots { get; set; }
+
+        public DbSet<ParkingSpace> parkingSpaces { get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<ParkingTransaction> ParkingTransactions { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<VehicleRegistration>()
-                .HasKey(x => x.Id);
+            modelBuilder.Entity<ParkingSpace>()
+          .HasOne(ps => ps.ParkingLot)
+          .WithMany(pl => pl.ParkingSpaces)
+          .HasForeignKey(ps => ps.parkingLotId)
+            .OnDelete(DeleteBehavior.NoAction);
 
-            modelBuilder.Entity<VehicleRegistration>()
-                .Property(x => x.Id)
-                .ValueGeneratedOnAdd();
+            modelBuilder.Entity<ParkingTransaction>()
+                .HasOne(pt => pt.ParkingSpaces)
+                .WithMany(pt => pt.ParkingTransactions)
+                .HasForeignKey(p => p.ParkingSpaceId)
+                    .OnDelete(DeleteBehavior.NoAction);
 
-            //modelBuilder.Entity<VehicleRegistration>().Property(x => x.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            modelBuilder.Entity<ParkingTransaction>()
+            .HasOne(v => v.Vehicle)
+            .WithMany(pt => pt.ParkingTransactions)
+            .HasForeignKey(pt => pt.VehicleId)
+                    .OnDelete(DeleteBehavior.NoAction);
         }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-        //    // Configure the connection string (for example, using SQL Server)
-        //    optionsBuilder.UseSqlServer("DefaultConnection");
-        //}
     }
 }
